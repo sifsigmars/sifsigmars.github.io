@@ -85,3 +85,24 @@ a:visited.btn {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px; }
+
+.about-sif {
+  float: left; }
+
+.about-col-1 {
+  float: left;
+  width: -webkit-calc(60% - (30px / 2));
+  width: calc(60% - (30px / 2));
+  padding-right: 30px; }
+
+.about-col-2 {
+  float: left;
+  width: -webkit-calc(40% - (30px / 2));
+  width: calc(40% - (30px / 2));
+  text-align: center; }
+
+@media screen and (max-width: 600px) {
+  .about-col-1, .about-col-2 {
+    float: none;
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2)); } }
