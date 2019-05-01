@@ -88,6 +88,8 @@ a:visited.btn {
 
 .about-sif {
   float: left; }
+  .about-sif a {
+    text-decoration: underline; }
 
 .about-col-1 {
   float: left;
